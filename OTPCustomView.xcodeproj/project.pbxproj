@@ -14,6 +14,8 @@
 		2608556B23EC52EF007A2C9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2608556923EC52EF007A2C9C /* LaunchScreen.storyboard */; };
 		2608557623EC52EF007A2C9C /* OTPCustomViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2608557523EC52EF007A2C9C /* OTPCustomViewTests.swift */; };
 		2608558123EC52EF007A2C9C /* OTPCustomViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2608558023EC52EF007A2C9C /* OTPCustomViewUITests.swift */; };
+		2608558F23EC532F007A2C9C /* OTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2608558E23EC532F007A2C9C /* OTPView.swift */; };
+		2608559123EC536B007A2C9C /* OTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2608559023EC536B007A2C9C /* OTPTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		2608557C23EC52EF007A2C9C /* OTPCustomViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTPCustomViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2608558023EC52EF007A2C9C /* OTPCustomViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPCustomViewUITests.swift; sourceTree = "<group>"; };
 		2608558223EC52EF007A2C9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2608558E23EC532F007A2C9C /* OTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPView.swift; sourceTree = "<group>"; };
+		2608559023EC536B007A2C9C /* OTPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				2608556023EC52EE007A2C9C /* AppDelegate.swift */,
 				2608556223EC52EE007A2C9C /* ViewController.swift */,
+				2608558E23EC532F007A2C9C /* OTPView.swift */,
+				2608559023EC536B007A2C9C /* OTPTextField.swift */,
 				2608556423EC52EE007A2C9C /* Main.storyboard */,
 				2608556723EC52EF007A2C9C /* Assets.xcassets */,
 				2608556923EC52EF007A2C9C /* LaunchScreen.storyboard */,
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2608556323EC52EE007A2C9C /* ViewController.swift in Sources */,
+				2608559123EC536B007A2C9C /* OTPTextField.swift in Sources */,
 				2608556123EC52EE007A2C9C /* AppDelegate.swift in Sources */,
+				2608558F23EC532F007A2C9C /* OTPView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
